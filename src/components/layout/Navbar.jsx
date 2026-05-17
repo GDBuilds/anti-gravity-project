@@ -104,7 +104,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 10, scale: 0.95 }}
                   transition={{ duration: 0.2 }}
-                  className="absolute right-0 top-full mt-2 w-80 glass-strong rounded-2xl shadow-2xl shadow-black/40 overflow-hidden"
+                  className="absolute right-0 top-full mt-2 w-80 dropdown-menu rounded-2xl shadow-2xl overflow-hidden"
                   id="notifications-panel"
                 >
                   <div className="px-4 py-3 border-b border-white/5 flex items-center justify-between">
@@ -170,7 +170,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 10, scale: 0.95 }}
                   transition={{ duration: 0.2 }}
-                  className="absolute right-0 top-full mt-2 w-56 glass-strong rounded-2xl shadow-2xl shadow-black/40 overflow-hidden"
+                  className="absolute right-0 top-full mt-2 w-56 dropdown-menu rounded-2xl shadow-2xl overflow-hidden"
                 >
                   <div className="px-4 py-3 border-b border-white/5">
                     <p className="font-medium text-sm">{user?.user_metadata?.full_name || 'User'}</p>
