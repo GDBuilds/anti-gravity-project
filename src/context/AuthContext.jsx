@@ -27,9 +27,18 @@ export const AuthProvider = ({ children }) => {
   }, [])
 
   // Will be passed down to Signup, Login and Logout components
+  const signInWithGoogle = () => supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: {
+      redirectTo: window.location.origin + '/dashboard',
+    },
+  })
+
+  // Will be passed down to Signup, Login and Logout components
   const value = {
     signUp: (data) => supabase.auth.signUp(data),
     signIn: (data) => supabase.auth.signInWithPassword(data),
+    signInWithGoogle,
     signOut: () => supabase.auth.signOut(),
     user,
   }
