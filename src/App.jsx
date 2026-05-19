@@ -23,7 +23,6 @@ import PaymentsPage from './pages/payments/PaymentsPage'
 import WhatsAppPage from './pages/whatsapp/WhatsAppPage'
 import SettingsPage from './pages/settings/SettingsPage'
 import DocumentsPage from './pages/documents/DocumentsPage'
-import CheckinTerminalPage from './pages/terminal/CheckinTerminalPage'
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true)
@@ -69,7 +68,6 @@ export default function App() {
                     <Route path="/payments" element={<PaymentsPage />} />
                     <Route path="/documents" element={<DocumentsPage />} />
                     <Route path="/whatsapp" element={<WhatsAppPage />} />
-                    <Route path="/terminal" element={<CheckinTerminalPage />} />
                     <Route path="/settings" element={<SettingsPage />} />
                   </Route>
 
