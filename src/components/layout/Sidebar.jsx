@@ -5,12 +5,13 @@ import { useApp } from '../../context/AppContext'
 import {
   LayoutDashboard, Users, Target, Bot, BarChart3, FileText,
   CreditCard, MessageCircle, Settings, ChevronLeft, ChevronRight,
-  Sparkles, X, FolderOpen
+  Sparkles, X, FolderOpen, Scan
 } from 'lucide-react'
 
 const navItems = [
   { path: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { path: '/customers', icon: Users, label: 'Customers' },
+  { path: '/terminal', icon: Scan, label: 'Terminal' },
   { path: '/payments', icon: CreditCard, label: 'Payments' },
   { path: '/settings', icon: Settings, label: 'Settings' },
 ]
