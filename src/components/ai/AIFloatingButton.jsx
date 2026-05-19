@@ -95,7 +95,7 @@ export default function AIFloatingButton() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white text-sm">AI Assistant</h3>
-                  <p className="text-[10px] text-white/70">Powered by ClientFlow AI</p>
+                  <p className="text-[10px] text-white/70">Powered by Gymshark</p>
                 </div>
               </div>
               <motion.button

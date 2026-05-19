@@ -68,7 +68,7 @@ export default function AIAssistantPage() {
               <Sparkles size={20} className="text-white" />
             </div>
             <div>
-              <h3 className="font-semibold text-white">ClientFlow AI</h3>
+              <h3 className="font-semibold text-white">Gymshark</h3>
               <div className="flex items-center gap-1.5">
                 <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <p className="text-xs text-slate-400">Online • Ready to assist</p>

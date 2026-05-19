@@ -89,7 +89,7 @@ export default function InvoicesPage() {
       
       pdf.setFontSize(10)
       pdf.setTextColor(100, 116, 139)
-      pdf.text('ClientFlow AI', 20, 45)
+      pdf.text('Gymshark', 20, 45)
       pdf.text('123 MG Road, Mumbai, India', 20, 50)
       
       pdf.setFontSize(12)
@@ -372,7 +372,7 @@ export default function InvoicesPage() {
             {/* Invoice Header */}
             <div className="flex justify-between items-start">
               <div>
-                <h2 className="text-xl font-bold gradient-text">ClientFlow AI</h2>
+                <h2 className="text-xl font-bold gradient-text">Gymshark</h2>
                 <p className="text-xs text-slate-400 mt-1">FitLife Gym & Wellness Center</p>
                 <p className="text-xs text-slate-500">123 MG Road, Mumbai, India</p>
               </div>

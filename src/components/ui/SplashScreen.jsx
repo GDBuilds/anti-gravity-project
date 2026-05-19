@@ -65,7 +65,7 @@ export default function SplashScreen() {
 
         {/* Brand name with stagger */}
         <div className="flex items-center gap-1">
-          {'ClientFlow'.split('').map((char, i) => (
+          {'Gymshark'.split('').map((char, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 20 }}
@@ -81,14 +81,6 @@ export default function SplashScreen() {
               {char}
             </motion.span>
           ))}
-          <motion.span
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.0, duration: 0.3 }}
-            className="text-2xl font-bold text-white ml-1"
-          >
-            AI
-          </motion.span>
         </div>
 
         {/* Tagline */}

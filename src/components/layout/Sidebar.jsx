@@ -34,7 +34,7 @@ export default function Sidebar() {
               exit={{ opacity: 0, x: -10 }}
               className="overflow-hidden"
             >
-              <h1 className="text-lg font-bold gradient-text whitespace-nowrap">ClientFlow AI</h1>
+              <h1 className="text-lg font-bold gradient-text whitespace-nowrap">Gymshark</h1>
               <p className="text-[10px] text-slate-500 -mt-0.5">Smart CRM Platform</p>
             </motion.div>
           )}
